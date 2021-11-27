@@ -1,0 +1,7 @@
+Run in terminal : ssh-keygen -t ed25519 -C "your_email@example.com"
+Press enter when filename is requested
+Enter some password for passphrase
+Run : cat ~/.ssh/ed25519.pub to copy ssh data
+Go to github.com -> add ssh key -> add key that was pasted to terminal
+Test your connection by running ssh -T git@github.com
+
